@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+sourceCompatibility = "$rootProject.jvmCompat"
+targetCompatibility = "$rootProject.jvmCompat"
+
+dependencies {
+  api project(':domain')
+}
+

@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+apply plugin: 'org.jetbrains.kotlin.jvm'
+
+dependencies {
+  api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$rootProject.kotlinVersion"
+  api 'io.reactivex.rxjava2:rxjava:2.2.8'
+}
+
+sourceCompatibility = "$rootProject.jvmCompat"
+targetCompatibility = "$rootProject.jvmCompat"
+
